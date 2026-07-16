@@ -1,4 +1,3 @@
-# member-repo-template
 # Project name
 
 One sentence on what this does.
