@@ -1,0 +1,19 @@
+# Keys, passwords and tokens stay out of the repo.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*
+
+# Client files and real data stay out of the repo. Use made-up test data.
+client-data/
+*.qbo
+*.ofx
+
+# Local clutter
+.DS_Store
+node_modules/
+__pycache__/
+.venv/

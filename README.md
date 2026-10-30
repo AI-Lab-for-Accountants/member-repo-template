@@ -28,6 +28,26 @@ Steps to install and run.
 Say where client data goes. Prefer local or anonymized data. Never paste client
 PII into a consumer AI tool.
 
+## What it can read or change
+
+Name every system it connects to (QuickBooks, a tax platform, email, a folder) and
+whether it only reads or can also change things there.
+
+## Before you share it in the ALFA GitHub
+
+Every ALFA member can see, clone and fork what you share there.
+
+- No passwords, API keys, tokens or `.env` files anywhere in the repo or its
+  history. The `.gitignore` here keeps the common ones out; check before your first
+  push, because removing a key later does not remove it from the history.
+- No client data, even in test files. Use made-up data.
+- Fill in every section of this README, including what it can read or change.
+- Your commit name and email show in the history. Push from an account that does
+  not name your firm if you would rather it not appear.
+
+The full steps are on the ALFA GitHub page in the Library on ailabforaccountants.com.
+
 ## License
 
-MIT. See the LICENSE file.
+MIT. Put the year and your name or firm in the LICENSE file, or replace it if you
+want different terms.
